@@ -2,7 +2,7 @@ Dim objShell
 Set objShell = Wscript.CreateObject("WScript.Shell")
 
 do
-objShell.Run "MineHacks.vbs"
+objShell.Run "ComputerMurder.vbs"
 dim r
 randomize
 r = int(rnd*28400)
